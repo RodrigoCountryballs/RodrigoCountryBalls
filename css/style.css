@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ff0000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+header img.logo {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin-top: 180px; /* para não ficar embaixo do header fixo */
+}
