@@ -12,49 +12,34 @@ header {
   width: 100%;
   background-color: #ff0000;
   color: white;
-  padding: 20px 0;
   text-align: center;
+  padding: 20px 0;
   z-index: 1000;
 }
 
-header img.logo {
-  width: 100px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
+header img.logo { width: 100px; border-radius: 50%; margin-bottom: 10px; }
+header img.banner { width: 100%; max-width: 900px; border-radius: 10px; margin: 10px 0; }
+header h1 { margin: 5px 0; font-size: 28px; }
 
-header img.banner {
-  width: 100%;
-  max-width: 900px;
-  margin: 10px 0;
-  border-radius: 10px;
-}
-
-header h1 {
-  margin: 5px 0;
-  font-size: 28px;
+nav button {
+  display: none; /* só será usado para mobile */
 }
 
 nav a {
   display: inline-block;
   margin: 0 10px;
+  padding: 10px 20px;
   background-color: #cc0000;
   color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
   text-decoration: none;
+  border-radius: 8px;
   font-weight: bold;
   transition: background-color 0.3s;
 }
 
-nav a:hover {
-  background-color: #ff4444;
-}
+nav a:hover { background-color: #ff4444; }
 
-body {
-  margin-top: 180px; /* espaço para header fixo */
-  text-align: center;
-}
+body { margin-top: 180px; text-align: center; }
 
 section {
   max-width: 900px;
@@ -76,9 +61,7 @@ section h2 {
   text-decoration: none;
 }
 
-.video-list a:hover {
-  text-decoration: underline;
-}
+.video-list a:hover { text-decoration: underline; }
 
 footer {
   background-color: #222;
